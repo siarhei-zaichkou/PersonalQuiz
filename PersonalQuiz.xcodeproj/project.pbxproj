@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		A55B407C291C792100362051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B407B291C792100362051 /* AppDelegate.swift */; };
 		A55B407E291C792100362051 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B407D291C792100362051 /* SceneDelegate.swift */; };
-		A55B4080291C792100362051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B407F291C792100362051 /* ViewController.swift */; };
+		A55B4080291C792100362051 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B407F291C792100362051 /* QuestionsViewController.swift */; };
 		A55B4083291C792100362051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55B4081291C792100362051 /* Main.storyboard */; };
 		A55B4085291C792400362051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55B4084291C792400362051 /* Assets.xcassets */; };
 		A55B4088291C792400362051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55B4086291C792400362051 /* LaunchScreen.storyboard */; };
 		A55B4090291C9A2500362051 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55B408F291C9A2500362051 /* Question.swift */; };
+		A58F555129254F3800DB147B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F555029254F3800DB147B /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A55B4078291C792100362051 /* PersonalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55B407B291C792100362051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A55B407D291C792100362051 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A55B407F291C792100362051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A55B407F291C792100362051 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		A55B4082291C792100362051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A55B4084291C792400362051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A55B4087291C792400362051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A55B4089291C792400362051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A55B408F291C9A2500362051 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A58F555029254F3800DB147B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 		A55B4092291C9A7100362051 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				A55B407F291C792100362051 /* ViewController.swift */,
+				A55B407F291C792100362051 /* QuestionsViewController.swift */,
+				A58F555029254F3800DB147B /* ResultViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -181,7 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A55B4080291C792100362051 /* ViewController.swift in Sources */,
+				A58F555129254F3800DB147B /* ResultViewController.swift in Sources */,
+				A55B4080291C792100362051 /* QuestionsViewController.swift in Sources */,
 				A55B4090291C9A2500362051 /* Question.swift in Sources */,
 				A55B407C291C792100362051 /* AppDelegate.swift in Sources */,
 				A55B407E291C792100362051 /* SceneDelegate.swift in Sources */,
